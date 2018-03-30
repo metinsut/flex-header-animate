@@ -38,6 +38,7 @@ li {
    left: 0;
    right: 0;
    top: 0;
+   padding:0 20px;
 }
 
 .logo {
@@ -74,7 +75,7 @@ li {
 }
 
 .footer {
-   background-color: darkolivegreen;
+   background-color: sandybrown;
    grid-column: 1/-1;
    height: 50px;
 }
@@ -88,8 +89,23 @@ li {
    left: 0;
    right: 0;
    display: grid;
-   grid-template-columns: auto auto;
+   grid-template-columns: auto auto auto;
    align-content: center;
    align-items: center;
    justify-content: space-between;
+   padding:0 20px;
+}
+
+button {
+   height: 30px;
+   width: 30px;
+   border-radius: 50%;
+   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+   border:none;
+   outline-color: none;
+   outline: none;
+   cursor: pointer;
+   font-size: 20px;
+   color:slateblue;
+   font-weight: bold;
 }
